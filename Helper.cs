@@ -12,12 +12,12 @@ namespace YahFin
     {
         public static void JapCandleInstall(ref JapCandle jc1, QuoteChart getchart1, int v)
         {
-            jc1.open = getchart1.Chart.Result[0].Indicators.Quote[0].Open[v];
-            jc1.close = getchart1.Chart.Result[0].Indicators.Quote[0].Close[v];
-            jc1.low = getchart1.Chart.Result[0].Indicators.Quote[0].Low[v];
-            jc1.high = getchart1.Chart.Result[0].Indicators.Quote[0].High[v];
-            jc1.adjclose = getchart1.Chart.Result[0].Indicators.Adjclose[0].adjclose[v];
-            jc1.volume = getchart1.Chart.Result[0].Indicators.Quote[0].Volume[v];
+            jc1.Open = getchart1.Chart.Result[0].Indicators.Quote[0].Open[v];
+            jc1.Close = getchart1.Chart.Result[0].Indicators.Quote[0].Close[v];
+            jc1.Low = getchart1.Chart.Result[0].Indicators.Quote[0].Low[v];
+            jc1.High = getchart1.Chart.Result[0].Indicators.Quote[0].High[v];
+            jc1.Adjclose = getchart1.Chart.Result[0].Indicators.Adjclose[0].adjclose[v];
+            jc1.Volume = getchart1.Chart.Result[0].Indicators.Quote[0].Volume[v];
         }
 
         static long ttime(DateTime datetime)

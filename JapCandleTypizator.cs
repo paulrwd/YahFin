@@ -9,11 +9,11 @@ namespace YahFin
     {
         public static string GetType(JapCandle jc)
         {
-            double half_percent = jc.close / 500;
+            double half_percent = jc.Close / 500;
 
-            if(jc.open > jc.close)
+            if(jc.Open > jc.Close)
             {
-                if(jc.open - jc.close < half_percent)
+                if(jc.Open - jc.Close < half_percent)
                 {
                     return " Bear doji";
                 }
@@ -21,16 +21,16 @@ namespace YahFin
                 return "Bear";
 
             }
-            else if(jc.open < jc.close)
+            else if(jc.Open < jc.Close)
             {
-                if (jc.close - jc.open < half_percent)
+                if (jc.Close - jc.Open < half_percent)
                 {
                     return "Bull doji";
                 }
 
                 return "Bull";
             }
-            else if (jc.open == jc.close)
+            else if (jc.Open == jc.Close)
             {
                 return "Doji";
             }
