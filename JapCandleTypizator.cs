@@ -15,24 +15,24 @@ namespace YahFin
             {
                 if(jc.open - jc.close < half_percent)
                 {
-                    return "Красная дожи";
+                    return " Bear doji";
                 }
 
-                return "Красная";
+                return "Bear";
 
             }
             else if(jc.open < jc.close)
             {
                 if (jc.close - jc.open < half_percent)
                 {
-                    return "Зеленая дожи";
+                    return "Bull doji";
                 }
 
-                return "Зеленая";
+                return "Bull";
             }
             else if (jc.open == jc.close)
             {
-                return "Дожи";
+                return "Doji";
             }
 
             return "";
