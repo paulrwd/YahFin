@@ -17,6 +17,10 @@ namespace YahFin
                 {
                     return " Bear doji";
                 }
+                if(jc.UpperShadow == 0 && jc.LowerShadow == 0)
+                {
+                    return " Bear marubozu";
+                }
 
                 return "Bear";
 
@@ -27,11 +31,28 @@ namespace YahFin
                 {
                     return "Bull doji";
                 }
+                if (jc.UpperShadow == 0 && jc.LowerShadow == 0)
+                {
+                    return " Bull marubozu";
+                }
 
                 return "Bull";
             }
             else if (jc.Open == jc.Close)
             {
+                if(jc.Open == jc.Close && jc.Close == jc.Low && jc.High != jc.Low)
+                {
+                    return " Gravestone doji";
+                }
+                if (jc.Open == jc.Close && jc.Close == jc.High && jc.High != jc.Low)
+                {
+                    return " Dragonfly doji";
+                }
+                if ((jc.High + jc.Low)/2 == jc.Close && jc.High != jc.Low)
+                {
+                    return " Rickshaw";
+                }
+
                 return "Doji";
             }
 
