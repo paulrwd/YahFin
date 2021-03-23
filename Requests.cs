@@ -12,7 +12,7 @@ using YahFin.QuoteChart_Classes;
 
 namespace YahFin
 {
-    public class Req
+    public class Requests
     {
 
         //        https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=2m
