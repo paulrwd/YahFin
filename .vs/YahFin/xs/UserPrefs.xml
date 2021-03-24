@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{BF813920-B115-422D-A17F-6F41E7C2B2D3}|Default">
+  <MonoDevelop.Ide.ItemProperties.ConsMac FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../ConsMac/Program.cs">
+    <Files>
+      <File FileName="../ConsMac/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YahFin" expanded="True">
+            <Node name="ConsMac" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+            <Node name="YahFin" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
