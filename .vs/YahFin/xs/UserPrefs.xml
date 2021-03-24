@@ -1,17 +1,22 @@
 ﻿<Properties StartupConfiguration="{BF813920-B115-422D-A17F-6F41E7C2B2D3}|Default">
   <MonoDevelop.Ide.ItemProperties.ConsMac PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../ConsMac/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/Chart.cs">
     <Files>
-      <File FileName="../ConsMac/Program.cs" Line="1" Column="1" />
+      <File FileName="../ConsMac/Program.cs" Line="13" Column="38" />
+      <File FileName="Models/Chart.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YahFin" expanded="True">
             <Node name="ConsMac" expanded="True">
-              <Node name="Dependencies" expanded="True" selected="True" />
+              <Node name="Dependencies" expanded="True" />
             </Node>
-            <Node name="YahFin" expanded="True" />
+            <Node name="YahFin" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Chart.cs" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
@@ -20,7 +25,9 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/paulrwd/Documents/GitHub/ConsMac/Program.cs" line="14" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
