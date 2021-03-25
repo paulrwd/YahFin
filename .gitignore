@@ -21,3 +21,6 @@ bin/Debug/netcoreapp3.1/YahFin.deps.json
 *.cache
 obj/Debug/netcoreapp3.1/YahFin.csproj.FileListAbsolute.txt
 obj/project.assets.json
+obj/Debug/netcoreapp3.1/YahFin.AssemblyInfo.cs
+*.cache
+obj/Debug/netcoreapp3.1/YahFin.AssemblyInfo.cs
