@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{BF813920-B115-422D-A17F-6F41E7C2B2D3}|Default">
   <MonoDevelop.Ide.ItemProperties.ConsMac PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../ConsMac/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../AutoConnector/AutoLogin.cs">
     <Files>
-      <File FileName="../ConsMac/Program.cs" Line="17" Column="1" />
+      <File FileName="../ConsMac/Program.cs" Line="15" Column="6" />
       <File FileName="Models/Chart.cs" />
+      <File FileName="../AutoConnector/Program.cs" Line="113" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YahFin" expanded="True">
-            <Node name="ConsMac" expanded="True">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+            <Node name="AutoConnector" expanded="True" selected="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
             </Node>
-            <Node name="YahFin" expanded="True">
-              <Node name="Models" expanded="True" />
-            </Node>
+            <Node name="YahFin" expanded="True" />
           </Node>
         </State>
       </Pad>
