@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ServiceStack" Version="5.10.4" />
     <PackageReference Include="QuikSharp" Version="2.0.0" />
+    <PackageReference Include="ServiceStack" Version="5.10.4" />
   </ItemGroup>
-
 </Project>
