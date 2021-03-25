@@ -2,21 +2,23 @@
   <MonoDevelop.Ide.ItemProperties.ConsMac PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="../AutoConnector/AutoLogin.cs">
     <Files>
-      <File FileName="../ConsMac/Program.cs" Line="15" Column="6" />
+      <File FileName="../ConsMac/Program.cs" Line="15" Column="70" />
       <File FileName="Models/Chart.cs" />
-      <File FileName="../AutoConnector/Program.cs" Line="113" Column="2" />
+      <File FileName="../AutoConnector/Program.cs" Line="10" Column="2" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="YahFin" expanded="True">
-            <Node name="AutoConnector" expanded="True" selected="True">
+            <Node name="AutoConnector" expanded="True">
+              <Node name="AutoLogin.cs" selected="True" />
+            </Node>
+            <Node name="YahFin" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
             </Node>
-            <Node name="YahFin" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -26,7 +28,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/paulrwd/Documents/GitHub/ConsMac/Program.cs" line="14" column="1" />
+      <Breakpoint file="/Users/paulrwd/Documents/GitHub/ConsMac/Program.cs" line="16" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
