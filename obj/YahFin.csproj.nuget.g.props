@@ -4,10 +4,10 @@
     <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
-    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/paulrwd/.nuget/packages/</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/paulrwd/.nuget/packages/</NuGetPackageFolders>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\paulr\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
@@ -16,110 +16,110 @@
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/QuikSharp.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/QuikSharp.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\QuikSharp.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\QuikSharp.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/QuikSharp.lua</Link>
+      <Link>lua\QuikSharp.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/Quik_2.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/Quik_2.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\Quik_2.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\Quik_2.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/Quik_2.lua</Link>
+      <Link>lua\Quik_2.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/USAGE.RU.md" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/USAGE.RU.md')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\USAGE.RU.md" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\USAGE.RU.md')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/USAGE.RU.md</Link>
+      <Link>lua\USAGE.RU.md</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs/5.1_MD/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs/5.1_MD/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs\5.1_MD\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs\5.1_MD\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs/5.1_MD/socket/core.dll</Link>
+      <Link>lua\clibs\5.1_MD\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs/5.1_MT/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs/5.1_MT/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs\5.1_MT\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs\5.1_MT\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs/5.1_MT/socket/core.dll</Link>
+      <Link>lua\clibs\5.1_MT\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/5.1_MD/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/5.1_MD/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\5.1_MD\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\5.1_MD\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs64/5.1_MD/socket/core.dll</Link>
+      <Link>lua\clibs64\5.1_MD\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/5.1_MT/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/5.1_MT/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\5.1_MT\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\5.1_MT\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs64/5.1_MT/socket/core.dll</Link>
+      <Link>lua\clibs64\5.1_MT\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/53_MD/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/53_MD/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\53_MD\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\53_MD\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs64/53_MD/socket/core.dll</Link>
+      <Link>lua\clibs64\53_MD\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/53_MT/socket/core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/clibs64/53_MT/socket/core.dll')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\53_MT\socket\core.dll" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\clibs64\53_MT\socket\core.dll')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/clibs64/53_MT/socket/core.dll</Link>
+      <Link>lua\clibs64\53_MT\socket\core.dll</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/config.json" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/config.json')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\config.json" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\config.json')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/config.json</Link>
+      <Link>lua\config.json</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/dkjson.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/dkjson.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\dkjson.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\dkjson.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/dkjson.lua</Link>
+      <Link>lua\dkjson.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qscallbacks.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qscallbacks.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qscallbacks.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qscallbacks.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/qscallbacks.lua</Link>
+      <Link>lua\qscallbacks.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qsfunctions.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qsfunctions.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qsfunctions.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qsfunctions.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/qsfunctions.lua</Link>
+      <Link>lua\qsfunctions.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qsutils.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/qsutils.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qsutils.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\qsutils.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/qsutils.lua</Link>
+      <Link>lua\qsutils.lua</Link>
     </Content>
-    <Content Include="$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/socket.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp/2.0.0/contentFiles/any/netstandard2.0/lua/socket.lua')">
+    <Content Include="$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\socket.lua" Condition="Exists('$(NuGetPackageRoot)quiksharp\2.0.0\contentFiles\any\netstandard2.0\lua\socket.lua')">
       <NuGetPackageId>QUIKSharp</NuGetPackageId>
       <NuGetPackageVersion>2.0.0</NuGetPackageVersion>
       <NuGetItemType>Content</NuGetItemType>
       <Private>False</Private>
-      <Link>lua/socket.lua</Link>
+      <Link>lua\socket.lua</Link>
     </Content>
   </ItemGroup>
 </Project>
