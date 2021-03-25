@@ -16,3 +16,8 @@ obj/YahFin.csproj.nuget.dgspec.json
 .vs/YahFin/xs/project-cache/YahFin-Debug.json
 .vs/YahFin/xs/UserPrefs.xml
 obj/Debug/netcoreapp3.1/YahFin.csproj.FileListAbsolute.txt
+.vs/YahFin/v16/.suo
+bin/Debug/netcoreapp3.1/YahFin.deps.json
+*.cache
+obj/Debug/netcoreapp3.1/YahFin.csproj.FileListAbsolute.txt
+obj/project.assets.json
