@@ -4,7 +4,7 @@ using System.Text;
 using YahFin.Models;
 using YahFin.QuotePrice_Classes;
 using YahFin.QuoteChart_Classes;
-
+using QuikSharp.DataStructures;
 
 namespace YahFin
 {
@@ -32,6 +32,14 @@ namespace YahFin
             System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
             dtDateTime = dtDateTime.AddSeconds(unixTimeStamp).ToLocalTime();
             return dtDateTime;
+        }
+
+        internal static long QuikDateTimeToTimeStamp(QuikDateTime datetime)
+        {
+            DateTime _dateTime = new DateTime(datetime.year, datetime.month, datetime.day, datetime.hour, datetime.min, datetime.sec, datetime.ms);
+            DateTime origin = new DateTime(1970, 1, 1, 0, 0, 0, 0);
+            TimeSpan diff = _dateTime - origin;
+            return Convert.ToInt64(Math.Floor(diff.TotalSeconds));
         }
     }
 }

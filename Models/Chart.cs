@@ -2,11 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 using YahFin.QuoteChart_Classes;
+using QuikSharp;
+using QuikSharp.DataStructures.Transaction;
+using QuikSharp.DataStructures;
 
 namespace YahFin.Models
 {
     public class Chart
     {
+        private List<Candle> toolCandles;
+
         public List<JapCandle> Candles { get; set; }
 
         public Chart()
@@ -32,6 +37,28 @@ namespace YahFin.Models
                 Candles.Add(jc);
             }
 
+        }
+
+        
+
+        public Chart(List<Candle> toolCandles)
+        {
+            Candles = new List<JapCandle>();
+            for (int i = 0; i < toolCandles.Count; i++)
+            {
+                JapCandle jc = new JapCandle
+                (
+                Helper.QuikDateTimeToTimeStamp(toolCandles[i].Datetime),
+                Convert.ToDouble(toolCandles[i].Open),
+                Convert.ToDouble(toolCandles[i].Close),
+                Convert.ToDouble(toolCandles[i].Low),
+                Convert.ToDouble(toolCandles[i].High),
+                Convert.ToDouble(toolCandles[i].Close),
+                Convert.ToInt64(toolCandles[i].Volume)
+                );
+                Candles.Add(jc);
+            }
+            this.toolCandles = toolCandles;
         }
     }
 }
