@@ -14,6 +14,7 @@ namespace YahFin
 {
     public class Requests
     {
+        //
 
         //        https://query1.finance.yahoo.com/v8/finance/chart/AAPL?interval=2m
         //        https://query1.finance.yahoo.com/v10/finance/quoteSummary/AAPL?modules=assetProfile%2CearningsHistory
